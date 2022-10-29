@@ -1,0 +1,138 @@
+
+userLogin= o.alhabshi@oie.int
+noEvolutionReason= 
+previousReportOIEReference= 
+currentReportNationalReference= {{currentReportNationalReference}}
+currentReportOIEReference= 
+outbreaksMeasuringUnit = Animal
+
+epiEvent 
+  countryOrTerritory = Cameroon
+  isAquatic b = false
+  diseaseName= European foulbrood of honey bees
+  causalAgent= Melissococcus plutonius
+  newDiseaseName= 
+  newCausalAgent= 
+  diseaseTypeStatus= Not sampled
+  diseaseTypeName= 
+  reasonForNotification= First occ in zone
+  isForCountry= true
+  epiEventStartDate= 18032020
+  confirmationDate= 20032020
+  lastOccurenceDate= 
+  epiEventEndDate= 
+  epiEventStatus= ongoing
+  emergingReason= 
+  epiComment= 
+  eventCMSummary 
+    domesticCMApplied [] s = Compartmentalisation, Disease notification, Disinfection
+    domesticCMToBeApplied [] s = General Surveillance, Monitoring
+    wildCMApplied [] s = Precautions at the borders
+    wildCMToBeApplied [] s = Traceability, Treatment, Zoning
+  eventDiagnosticNature [] s = Necropsy, Diagnostic test
+  eventDiagnosticTests []
+    nbOutbreaks number = 0
+    broadCategory = Antibody detection
+    category = Antibody Detection Tests
+    newCategory= 
+    newBroadCategory= 
+    isField b = false
+    diagnosticTest= B-ELISA
+    newDiagnosticTest= 
+    testedFrom= 19032020
+    testedUntil= 19032020
+    resultDate= 17032020
+    result= Negative
+    laboratoryName= Kenya Agricultural and Livestock Research Organization (KALRO)
+    labType= national
+    newLaboratoryName= 
+    speciesSampled [] s =  Bees
+  eventSourceOfInfection  
+    otherSourceOfInfection= 
+    sourceOfInfection [] s = Unknown or inconclusive
+  zoonoticPotential b 
+  zoonoticPotentialDescription = 
+  testsOutbreaksByOutbreaks b = true
+outbreaks[0]
+  strain= 
+  strainReq= 
+  outbreakNationalOBreference =
+  outbreakStartDate = 01032020
+  outbreakEndDate = 19032020
+  locationName = North border
+  epiUnit = Village
+  locationIsApproximative b = true
+  latitude n = 7.369722
+  longitude n = 12.3
+  diagnosticNature [] s
+  affectedPopulationDescription = Local farms
+  speciesQuantity [0]
+    isWild b = false
+    speciesLevelOne = Bees
+    speciesLevelTwo= 
+    speciesLevelThreeLatin= 
+    newSpeciesNameLevelTwo= 
+    newSpeciesNameLevelThreeCommon= 
+    newSpeciesNameLevelThreeLatin= 
+    productionSystem = 
+    wildType = 
+    productionType = 
+    newSusceptible number = 333000
+    newCases number = 33330
+    newDead number = 3333
+    newKilledDisposed number = 333
+    newSlaughtered number = 33
+    newVaccinated number = 1
+    mortality n = 0.0
+    morbidity n = 0.0
+  outbreakControlMeasures [] s = Movement control inside the country, Quarantine, Targeted Surveillance
+  outbreakDiagnosticTests [0]  
+    diagnosticTest = B-ELISA
+    testsResults = negative
+    resultDate = 
+  totalOutbreaks number = 0
+  isCluster b = false
+
+outbreaks[1]
+  strain= 
+  strainReq= 
+  outbreakNationalOBreference =
+  outbreakStartDate = 01032020
+  outbreakEndDate = 19032020
+  locationName = North border
+  epiUnit = Village
+  locationIsApproximative b = true
+  latitude n = 7.369722
+  longitude n = 12.3
+  diagnosticNature [] s
+  affectedPopulationDescription = Local farms
+  speciesQuantity [0]
+    isWild b = false
+    speciesLevelOne = Bees
+    speciesLevelTwo= 
+    speciesLevelThreeLatin= 
+    newSpeciesNameLevelTwo= 
+    newSpeciesNameLevelThreeCommon= 
+    newSpeciesNameLevelThreeLatin= 
+    productionSystem = 
+    wildType = 
+    productionType = 
+    newSusceptible number = 333000
+    newCases number = 33330
+    newDead number = 3333
+    newKilledDisposed number = 333
+    newSlaughtered number = 33
+    newVaccinated number = 1
+    mortality n = 0.0
+    morbidity n = 0.0
+  outbreakControlMeasures [] s = Movement control inside the country, Quarantine, Targeted Surveillance
+  outbreakDiagnosticTests [0]  
+    diagnosticTest = B-ELISA
+    testsResults = negative
+    resultDate = 
+  totalOutbreaks number = 0
+  isCluster b = false
+  
+globalValues 
+  globalMorbidity= 2
+  globalMortality= 1
